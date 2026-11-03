@@ -1,0 +1,80 @@
+{
+  "model": "CsPbI3ChargedVacancy_Benchmark.mph",
+  "parameters_SI": {
+    "T": 600.0,
+    "eps0": -0.08,
+    "c0": 2.002,
+    "L": 3.0000000000000004e-07,
+    "H": 1.0000000000000001e-07,
+    "D0": 5.998e-09,
+    "epsr": 18.1,
+    "zV": 1.0
+  },
+  "cutline_y_m": 0,
+  "spatial_nodes": 460,
+  "all_nodes_retained": true,
+  "solver_rerun": false,
+  "model_save": false,
+  "flux_values": "Direct COMSOL stored states; no time interpolation, sign reversal, smoothing or forced zero",
+  "steady_criterion": "norm(C(t)-C_final)/norm(C_initial-C_final)<=1e-4 persistently; discrete Euclidean norm",
+  "steady_time_s": 0.009202752029406014,
+  "old_absolute_max_profile_criterion_time_s": 0.0068942,
+  "source_sha256": {
+    "source_data/formal_simuation/benchmark_verify/postprocess_result/data/formal_800_raw/paper_flux_snapshots.csv": "c1e4a4692d8f586f0e1a24ecad8f476181915763c81fb8753ba053f409deb3fe",
+    "data/benchmark/paper_flux_snapshot_times.csv": "596da5f850b15c76aafaf02a5abb8751bac9b958b7437bb69c90f0732a68b4f9",
+    "data/benchmark/paper_flux_model_parameters.csv": "efc2df7573e39ebb6392448b4605d74d7f627906961b04875356130730d01b45",
+    "source_data/formal_simuation/benchmark_verify/postprocess_result/data/formal_800_raw/concentration_all_800.csv": "a293d03c0a050caff9103d1b37101852121ba38350b8392402278069ebd38544"
+  },
+  "snapshots": [
+    {
+      "stage": "initial",
+      "time_s": 0.0,
+      "stored_index": 0,
+      "residual": 1.0,
+      "mean_abs_net_flux_SI": 3.7916964913117557e-06,
+      "component_sum_relative_error": 1.0501929113940196e-16,
+      "output": "fig_flux_t0s",
+      "mean_abs_net_flux_relative_to_initial": 1.0
+    },
+    {
+      "stage": "early",
+      "time_s": 0.0002529966193651138,
+      "stored_index": 8,
+      "residual": 0.5667402732305827,
+      "mean_abs_net_flux_SI": 2.0888798656052988e-06,
+      "component_sum_relative_error": 8.935201847786613e-17,
+      "output": "fig_flux_early_t0p25ms",
+      "mean_abs_net_flux_relative_to_initial": 0.5509090377860494
+    },
+    {
+      "stage": "late",
+      "time_s": 0.001992348377500271,
+      "stored_index": 63,
+      "residual": 0.09465803392535353,
+      "mean_abs_net_flux_SI": 1.2452654093588155e-07,
+      "component_sum_relative_error": 9.178076416561813e-17,
+      "output": "fig_flux_early_t1p99ms",
+      "mean_abs_net_flux_relative_to_initial": 0.03284190631323474
+    },
+    {
+      "stage": "steady",
+      "time_s": 0.009202752029406014,
+      "stored_index": 291,
+      "residual": 9.738056939055706e-05,
+      "mean_abs_net_flux_SI": 1.733545089778504e-10,
+      "component_sum_relative_error": 9.605162439128647e-17,
+      "output": "fig_flux_steady_t9p20ms",
+      "mean_abs_net_flux_relative_to_initial": 4.571951087727424e-05
+    }
+  ],
+  "reference_style": "8x6 inches; Times New Roman/STIX; 600 dpi PNG; vector PDF",
+  "legend": "Jdiff, Jstrain, Jelec and J_x; longitudinal total flux J_x corresponds to J in the one-dimensional manuscript notation; thin gray dashed curve is their signed sum",
+  "line_styles": "Jdiff: blue solid; Jstrain: red solid; Jelec: green solid; Jx: thinner dark gray dashed",
+  "legend_layout": "Upper right, compact two columns; equal shortened line samples; gray sample has three complete dashes",
+  "x_limits_nm": [
+    -6,
+    306
+  ],
+  "legend_line_sample_width_pt": 36.36,
+  "zero_reference_line": false
+}

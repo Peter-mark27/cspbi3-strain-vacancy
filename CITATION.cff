@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this data package and the associated manuscript when using these data or plotting scripts."
+type: dataset
+url: "https://github.com/Peter-mark27/cspbi3-strain-vacancy"
+title: "Data and plotting code for Multiphysics Modeling Reveals Strain-Gradient-Induced Iodide-Vacancy Accumulation in CsPbI3 Perovskite"
+authors:
+  - family-names: "Li"
+    given-names: "Jun-Jie"
+  - family-names: "Cui"
+    given-names: "Chuan-Xin"
+  - family-names: "Jiang"
+    given-names: "Jin-Wu"
+abstract: >-
+  Processed numerical data, reference figures, and plotting scripts for
+  strain-gradient-induced iodide-vacancy redistribution in CsPbI3 perovskite.
+  The data include atomistic calibration points, convergence summaries,
+  baseline concentration and electrostatic fields, flux competition,
+  parameter scans, and analytical comparisons.
+keywords:
+  - CsPbI3
+  - iodide vacancy
+  - strain gradient
+  - vacancy transport
+  - electrostatics
+  - multiphysics modeling

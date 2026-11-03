@@ -1,0 +1,2 @@
+# Preserve file bytes so SHA256SUMS remains valid after Git checkout.
+* -text

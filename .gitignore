@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+.matplotlib/
+reproduced_figures/
+.DS_Store
+Thumbs.db
